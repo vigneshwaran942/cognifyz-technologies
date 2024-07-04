@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>car</title>
+</head>
+<body>
+    <div class="container">
+        <h1>CAR</h1>
+        <img src="https://img.freepik.com/free-photo/modern-sports-car-speeds-through-dark-curve-generative-ai_188544-9136.jpg?size=626&ext=jpg&ga=GA1.1.2113030492.1720051200&semt=sph" alt="Zoo Image">
+        <p><b>Cars have controls for driving, parking, passenger comfort, and a variety of lamps. Over the decades, additional features and controls have been added to vehicles, making them progressively more complex. These include rear-reversing cameras, air conditioning, navigation systems, and in-car entertainment. Most cars in use in the early 2020s are propelled by an internal combustion engine, fueled by the combustion of fossil fuels. Electric cars, which were invented early in the history of the car, became commercially available in the 2000s and are predicted to cost less to buy than petrol-driven cars before 2025.[5][6] The transition from fossil fuel-powered cars to electric cars features prominently in most climate change mitigation scenarios,[7] such as Project Drawdown's 100 actionable solutions for climate change.[8]
+
+            There are costs and benefits to car use. The costs to the individual include acquiring the vehicle, interest payments (if the car is financed), repairs and maintenance, fuel, depreciation, driving time, parking fees, taxes, and insurance.[9] The costs to society include maintaining roads, land-use, road congestion, air pollution, noise pollution, public health, and disposing of the vehicle at the end of its life. Traffic collisions are the largest cause of injury-related deaths worldwide.[10] Personal benefits include on-demand transportation, mobility, independence, and convenience.[11] Societal benefits include economic benefits, such as job and wealth creation from the automotive industry, transportation provision, societal well-being from leisure and travel opportunities, and the generation of revenue from taxation. People's ability to move flexibly from place to place has far-reaching implications for the nature of societies.[12] There are around one billion cars in use worldwide. Car usage is increasing rapidly, especially in China, India, and other newly industrialised countries.[13]</b></p>
+    </div>
+
+    <button id="colorButton">Change Background Color</button>
+
+    <div class="form-container">
+        <form id="userForm">
+            <h2>Registration Form</h2>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <span class="error-message" id="usernameError"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error-message" id="emailError"></span>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <span class="error-message" id="passwordError"></span>
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                <span class="error-message" id="confirmPasswordError"></span>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    
+</body>
+</html>
+
+<style>
+
+body {
+    background-color: rgb(213, 242, 244);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(213, 242, 244);
+}
+
+h1 {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    border: 2px solid rgb(35, 130, 0);
+    padding: 30px;
+    margin: 50px auto;
+    background-color: rgb(41, 202, 216);
+    width: 90%;
+    box-sizing: border-box;
+}
+
+p {
+    text-align: justify;
+    letter-spacing: 0.2mm;
+    line-height: 1.6;
+    font-size: 1em;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.form-container {
+    margin: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #5cb85c;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4cae4c;
+}
+
+#colorButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 2.5em;
+        padding: 25px;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 992px) {
+    h1 {
+        font-size: 2em;
+        padding: 20px;
+        margin: 30px auto;
+    }
+
+    p {
+        font-size: 0.85em;
+        margin: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8em;
+        padding: 15px;
+        margin: 20px auto;
+    }
+
+    p {
+        font-size: 0.8em;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5em;
+        padding: 10px;
+        margin: 10px auto;
+    }
+
+    p {
+        font-size: 0.75em;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 1.2em;
+        padding: 5px;
+        margin: 5px auto;
+        width: 95%;
+    }
+
+    p {
+        font-size: 0.7em;
+        margin: 5px;
+    }
+}
+
+</style>
+<script>
+
+document.getElementById('colorButton').addEventListener('click', function() {
+    document.body.style.backgroundColor = getRandomColor();
+});
+
+function getRandomColor() {
+    const letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
+
+document.getElementById('userForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const errorMessages = document.querySelectorAll('.error-message');
+    errorMessages.forEach(error => error.style.display = 'none');
+
+    let isValid = true;
+
+    const username = document.getElementById('username').value;
+    if (username.trim() === '') {
+        isValid = false;
+        document.getElementById('usernameError').textContent = 'Username is required';
+        document.getElementById('usernameError').style.display = 'block';
+    }
+
+    const email = document.getElementById('email').value;
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailPattern.test(email)) {
+        isValid = false;
+        document.getElementById('emailError').textContent = 'Enter a valid email address';
+        document.getElementById('emailError').style.display = 'block';
+    }
+
+    const password = document.getElementById('password').value;
+    if (password.length < 6) {
+        isValid = false;
+        document.getElementById('passwordError').textContent = 'Password must be at least 6 characters';
+        document.getElementById('passwordError').style.display = 'block';
+    }
+
+    const confirmPassword = document.getElementById('confirmPassword').value;
+    if (password !== confirmPassword) {
+        isValid = false;
+        document.getElementById('confirmPasswordError').textContent = 'Passwords do not match';
+        document.getElementById('confirmPasswordError').style.display = 'block';
+    }
+
+    if (isValid) {
+        alert('Form submitted successfully!');
+        
+    }
+});
+</script>
