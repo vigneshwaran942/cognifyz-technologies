@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>car</title>
+    
+</head>
+<body>
+    <h1>CAR </h1>
+      <img src="https://img.freepik.com/free-photo/modern-sports-car-speeds-through-dark-curve-generative-ai_188544-9136.jpg?size=626&ext=jpg&ga=GA1.1.2113030492.1720051200&semt=sph"" height="500px" width="700px">
+      <p><b>Cars have controls for driving, parking, passenger comfort, and a variety of lamps. Over the decades, additional features and controls have been added to vehicles, making them progressively more complex. These include rear-reversing cameras, air conditioning, navigation systems, and in-car entertainment. Most cars in use in the early 2020s are propelled by an internal combustion engine, fueled by the combustion of fossil fuels. Electric cars, which were invented early in the history of the car, became commercially available in the 2000s and are predicted to cost less to buy than petrol-driven cars before 2025.[5][6] The transition from fossil fuel-powered cars to electric cars features prominently in most climate change mitigation scenarios,[7] such as Project Drawdown's 100 actionable solutions for climate change.[8]
+
+        There are costs and benefits to car use. The costs to the individual include acquiring the vehicle, interest payments (if the car is financed), repairs and maintenance, fuel, depreciation, driving time, parking fees, taxes, and insurance.[9] The costs to society include maintaining roads, land-use, road congestion, air pollution, noise pollution, public health, and disposing of the vehicle at the end of its life. Traffic collisions are the largest cause of injury-related deaths worldwide.[10] Personal benefits include on-demand transportation, mobility, independence, and convenience.[11] Societal benefits include economic benefits, such as job and wealth creation from the automotive industry, transportation provision, societal well-being from leisure and travel opportunities, and the generation of revenue from taxation. People's ability to move flexibly from place to place has far-reaching implications for the nature of societies.[12] There are around one billion cars in use worldwide. Car usage is increasing rapidly, especially in China, India, and other newly industrialised countries.[13]<b></p>
+    </body>
+    <style>
+
+html{
+    background-color: rgb(24, 78, 2);
+}
+
+h1 {
+    color: rgb(1, 1, 15);
+    font-family: verdana;
+    font-size: 300%;
+    text-align: center;
+    border: 2px solid rgb(245, 246, 245);
+    padding: 30px;
+    margin: 50px;
+    background-color: rgb(95, 215, 239);
+    color: white;
+    position: fixed;
+    width: 88.3%;
+}
+p{
+      position: relative;
+      left: 700px;
+      display: block;
+      bottom: 100px;
+      text-align: justify;
+      letter-spacing: 0.2mm;
+      line-height: 7mm;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 11.5;
+      
+    }
+  img{
+    position: relative;
+    top: 250px;
+    
+  }
+
+  body{
+    background-color: rgb(213, 242, 244);
+    
+  }
+    </style>
+</html>
